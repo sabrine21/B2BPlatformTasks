@@ -1,0 +1,58 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 24px 0; 
+    background-color: #FFFFFF; 
+    border-bottom: 1px solid #EAECF0;
+    width: 1225px; 
+    height: 88px;
+    gap: 24px; 
+    box-sizing: border-box;
+    float: right;
+    margin-left: 301px;
+    position: absolute;
+    }
+
+.navbar-left .welcome-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; 
+    font-size: 30px; 
+    line-height: 38px; 
+    margin-left: 32px;
+    color: #270B53;
+   
+}
+
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    margin-right: 32px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+
+.param img{
+    width: 20px;
+    height: 20px;
+    margin-left: 25.67px;
+    cursor: pointer;
+}
+
