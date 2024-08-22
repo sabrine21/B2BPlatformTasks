@@ -1,0 +1,88 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 650px;
+    height: 720px;
+    border: 2px solid #D0D5DD;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 20px;
+    justify-content: center;  
+}
+
+.text {
+    color: #7B35DA;
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.underline {
+    width: 70px;
+    height: 6px;
+    background: #7B35DA;
+    border-radius: 10px;
+    align-items: cene;
+}
+
+.inputs {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.submition-container {
+    display: flex;
+    justify-content: center;
+    width: 464px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #EDE7FF; 
+    border-radius: 6px;
+  
+}
+
+.submit-container {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  
+}
+
+.submit-container.inactive {
+    background-color: #EDE7FF;
+    cursor: not-allowed;
+    justify-content: center;
+}
+
+.submit-container.active {
+    background-color: #7B35DA;
+    cursor: pointer;
+}
+
+.redirect {
+    font-size: 14px;
+    color: #555;
+    margin: 0px;
+}
+
+
